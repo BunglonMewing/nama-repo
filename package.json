@@ -1,0 +1,13 @@
+{
+  "name": "instagram-downloader-backend",
+  "version": "1.0.0",
+  "description": "Instagram video downloader backend",
+  "main": "api/download.js",
+  "scripts": {
+    "start": "node api/download.js"
+  },
+  "dependencies": {
+    "instagram-url-direct": "^2.0.7",
+    "cors": "^2.8.5"
+  }
+}
